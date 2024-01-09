@@ -22,6 +22,9 @@ body{
     margin-right: auto;
 }
 
+.col{
+    width: 100%;
+}
 /* nav */
 
 nav{
@@ -55,9 +58,6 @@ header .row{
     gap:24px;
 }
 
-header .col{
-    width: 100%;
-}
 
 .text-box{
     height: 180px;
@@ -76,4 +76,31 @@ header .col{
 
 
 /* section planning */
+
+.planning{
+    background-color: #9792e4;
+    padding-bottom:62px;
+
+    margin-bottom: 68px;
+}
+
+.planning .row{
+    flex-direction: column;
+    gap:24px;
+}
+
+.planning .col:nth-of-type(2){
+    background-color: white;
+    /* test */
+}
+
+.planning .col:nth-of-type(2) .img-box, .planning .col:nth-of-type(2) .text-box{
+    height: 90px;
+    width: 50%;
+
+    margin-left: auto;
+    margin-right: auto;
+    /* test */
+}
+
 /* fine section planning */
