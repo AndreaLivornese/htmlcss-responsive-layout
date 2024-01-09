@@ -231,6 +231,10 @@ header .col:first-of-type{
     width: 30%;
 }
 
+.testimonials .text-box:first-of-type{
+    width: 100%;
+}
+
 .testimonials .text-box{
     width: 70%;
 }
