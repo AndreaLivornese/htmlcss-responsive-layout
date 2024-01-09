@@ -15,6 +15,9 @@ body{
 
 .container{
     max-width: 480px;
+
+    padding:20px 32px;
+
     margin-left: auto;
     margin-right: auto;
 }
@@ -23,14 +26,12 @@ body{
 
 nav{
     background-color: #0084fd;
+
+    margin-bottom: 50px;
 }
 
 nav .row{
     justify-content: space-between;
-}
-
-nav .container{
-    padding:20px 32px;
 }
 
 nav .menu{
@@ -39,3 +40,40 @@ nav .menu{
 
 
 /* fine nav */
+
+
+/* header */
+header{
+    background-color: blueviolet;
+        /* test */
+
+        margin-bottom: 80px;
+}
+
+header .row{
+    flex-direction: column;
+    gap:24px;
+}
+
+header .col{
+    width: 100%;
+}
+
+.text-box{
+    height: 180px;
+    background-color: cadetblue;
+    /* text */
+}
+
+.img-box{
+    height: 180px;
+    background-color: burlywood;
+    /* text */
+}
+
+/* fine header */
+
+
+
+/* section planning */
+/* fine section planning */
