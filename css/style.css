@@ -54,7 +54,7 @@ header{
 }
 
 header .row{
-    flex-direction: column;
+    flex-wrap: wrap;
     gap:24px;
 }
 
@@ -85,7 +85,7 @@ header .row{
 }
 
 .planning .row{
-    flex-direction: column;
+    flex-wrap: wrap;
 
     gap:24px;
 }
@@ -114,7 +114,7 @@ header .row{
 }
 
 .testimonials .row{
-    flex-direction: column;
+    flex-wrap: wrap;
     gap:32px;
 }
 
@@ -133,6 +133,8 @@ header .row{
 
 .benefits{
     background-color: #9792e4;
+
+    margin-bottom: 92px;
 }
 
 .benefits .container{
@@ -142,11 +144,29 @@ header .row{
 
 
 .benefits .row{
-    flex-direction: column;
+    flex-wrap: wrap;
     gap:32px;
 }
 
 /* fine benefits */
+
+/* about us */
+
+.about-us{
+    margin-bottom: 80px;
+}
+
+.about-us .row{
+    flex-wrap: wrap;
+    gap:54px;
+}
+
+.about-us .container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* fine about us */
 
 
 
