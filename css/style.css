@@ -185,11 +185,85 @@ header .row{
 
 /* footer */
 
+footer{
+    background-color: #333333;
+}
 
 /* fine footer */
 
 
 
+
+
+
+
+/* 
+
+responsive
+
+*/
+
+
+@media screen and (min-width: 768px){
+
+.container{
+    max-width: 991px;
+}
+/* header */
+
+header .col{
+    width: calc(100% / 3 - 24px / 3 * 2);
+}
+
+header .col:first-of-type{
+    width: calc((100% / 3 - 12px / 3) * 2);   /* calcolo della grandezza deel primo quadrato dell'header */
+}
+
+
+/* testimonials */
+
+.testimonials .col{
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonials .img-box{
+    width: 30%;
+}
+
+.testimonials .text-box{
+    width: 70%;
+}
+
+
+/* benefits */
+
+.benefits .col{
+    width:calc(100% / 2 - 32px / 2)
+}
+
+
+/* about us */
+
+.about-us .col:first-of-type{
+    width: calc(60% - 27px);
+
+}
+
+.about-us .col:nth-of-type(2){
+    width: calc(40% - 27px);
+}
+
+}
+
+
+
+
+/* 
+
+fine responsive
+
+*/
 
 
 
