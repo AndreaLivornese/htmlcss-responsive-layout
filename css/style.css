@@ -121,6 +121,33 @@ header .row{
 /* fine testimonials */
 
 
+/* benefits */
+
+.title{
+  
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    /* test */
+}
+
+.benefits{
+    background-color: #9792e4;
+}
+
+.benefits .container{
+    padding:75px 32px 64px;
+}
+
+
+
+.benefits .row{
+    flex-direction: column;
+    gap:32px;
+}
+
+/* fine benefits */
+
 
 
 
@@ -145,5 +172,11 @@ header .row{
 .text-box::after{
     content:'testo';
 }
+
+
+.title::after{
+    content:'titolo';
+}
+
 
 /* fine test */
