@@ -86,6 +86,7 @@ header .row{
 
 .planning .row{
     flex-direction: column;
+
     gap:24px;
 }
 
@@ -104,3 +105,45 @@ header .row{
 }
 
 /* fine section planning */
+
+
+/* testimonials */
+
+.testimonials{
+    margin-bottom: 112px;
+}
+
+.testimonials .row{
+    flex-direction: column;
+    gap:32px;
+}
+
+/* fine testimonials */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* test */
+
+.img-box::after{
+    content:'immagine';
+}
+
+.text-box::after{
+    content:'testo';
+}
+
+/* fine test */
