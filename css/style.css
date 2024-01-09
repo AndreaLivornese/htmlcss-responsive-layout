@@ -5,7 +5,37 @@
 }
 /* reset */
 
-
 body{
     font-family: 'PT Sans', sans-serif;
 }
+
+.row{
+    display: flex;
+}
+
+.container{
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* nav */
+
+nav{
+    background-color: #0084fd;
+}
+
+nav .row{
+    justify-content: space-between;
+}
+
+nav .container{
+    padding:20px 32px;
+}
+
+nav .menu{
+    font-size: 18px;
+}
+
+
+/* fine nav */
