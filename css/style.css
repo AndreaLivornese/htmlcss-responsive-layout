@@ -258,6 +258,31 @@ header .col:first-of-type{
 
 
 
+@media screen and (min-width: 1200px){
+
+    .container{
+        max-width: 1200px;
+    }
+    
+    /* planning */
+    
+    .planning .row{
+        align-items: flex-end;
+    }
+
+    .planning .col{
+        width: calc(50% - 12px);
+    }
+    
+    /* benefits */
+    
+    .benefits .col{
+        width:calc(100% / 3 - 32px / 3 * 2);
+    }
+    
+    }
+
+
 
 /* 
 
