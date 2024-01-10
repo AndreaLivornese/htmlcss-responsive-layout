@@ -456,6 +456,15 @@ footer{
     background-color: #333333;
 }
 
+footer .text-box{
+    text-align: center;
+    color:white;
+}
+
+footer p{
+    margin-bottom: 60px;
+}
+
 /* fine footer */
 
 
