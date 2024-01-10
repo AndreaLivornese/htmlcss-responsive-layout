@@ -28,6 +28,27 @@ img{
 
 .col{
     width: 100%;
+
+    border-radius: 30px;
+
+    text-align: center;
+}
+
+p{
+    line-height: 1.6;
+}
+
+.btn{
+    display: inline-block;
+
+    padding: 16px 50px;
+
+    border-radius: 30px;
+
+    background-color: #0084fd;
+    color:white;
+    font-weight: bold;
+    letter-spacing: 3px;
 }
 /* nav */
 
@@ -53,10 +74,12 @@ nav .menu{
 
 /* header */
 header{
-    background-color: blueviolet;
-        /* test */
-
         margin-bottom: 80px;
+}
+
+header .container{
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 header .row{
@@ -64,16 +87,47 @@ header .row{
     gap:24px;
 }
 
+header .col{
+    background-color: #b5ddff;
+
+    padding: 38px 32px;
+}
+
+header .col:first-of-type{
+    text-align: left;
+}
+
+header p{
+    color:#5a6e7f;
+
+    margin-bottom: 30px;
+}
+
+header .btn{
+    margin-bottom: 40px;
+}
+
+.title-p{
+    margin-bottom: 30px;
+
+    font-size: 18px;
+    font-weight: bold;
+    color:#0084fd;
+}
+
+
+.icon-box{
+    font-size: 70px;
+    color:#0084fd;
+}
 
 .text-box{
-    height: 180px;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     /* text */
 }
 
 .img-box{
-    height: 180px;
-    background-color: burlywood;
+    /* background-color: burlywood; */
     /* text */
 }
 
