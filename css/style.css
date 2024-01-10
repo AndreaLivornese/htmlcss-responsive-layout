@@ -13,6 +13,10 @@ body{
     display: flex;
 }
 
+img{
+    width: 100%;
+}
+
 .container{
     max-width: 480px;
 
@@ -35,10 +39,12 @@ nav{
 
 nav .row{
     justify-content: space-between;
+    align-items: center;
 }
 
 nav .menu{
-    font-size: 18px;
+    color:white;
+    font-size: 24px;
 }
 
 
