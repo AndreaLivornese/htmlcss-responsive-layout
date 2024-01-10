@@ -309,14 +309,15 @@ button{
     margin-bottom: 36px;
 }
 
-.benefits p{
-    margin-bottom: 30px;
-}
 
 .benefits .btn{
     padding: 18px 48px;
 
     background-color:#9792e4;
+}
+
+.benefits p{
+    margin-bottom: 30px;
 }
 
 
@@ -329,6 +330,11 @@ button{
     margin-bottom: 80px;
 }
 
+.about-us .col{
+    color: #9792e4;
+    text-align: left;
+}
+
 .about-us .row{
     flex-wrap: wrap;
     gap:54px;
@@ -339,6 +345,48 @@ button{
     padding-bottom: 0;
 }
 
+.about-us .title-p{
+    color: #9792e4;
+    font-size: 34px;
+    margin-bottom: 58px;
+}
+
+.about-us p{
+    line-height: 2;
+    color:black;
+}
+
+.about-us p:first-of-type{
+    margin-bottom: 70px;
+}
+
+
+.about-us .img-box{
+    width: 180px;
+
+    margin-bottom: 30px;
+}
+
+.circular-square {
+    border-radius: 50%;
+}
+
+.description{
+    font-weight: bold;
+    font-size: 20px;
+
+    margin-bottom: 32px;
+}
+
+
+.about-us .btn{
+    background-color: #9792e4;
+
+    padding: 10px 16px;
+
+    font-size: 14px;
+    letter-spacing: normal;
+}
 /* fine about us */
 
 
