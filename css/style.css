@@ -401,6 +401,52 @@ button{
     padding-bottom: 65px;
 }
 
+.get-start .col{
+    color:white;
+}
+
+
+.get-start .col-title{
+    font-size: 14px;
+    font-weight:lighter;
+    color:#cfcef2;
+}
+
+.sub-title{
+    font-size: 21px;
+    font-weight: bold;
+
+    margin-bottom: 50px;
+}
+
+.big-word{
+   font-size: 42px;
+   color: #fdc15f;
+   margin-bottom: 50px;
+
+}
+
+.get-start p{
+    margin-bottom: 38px;
+}
+
+
+.get-start .btn{
+    margin-bottom: 35px;
+
+    color:#9792e4;
+
+    background-color: white;
+}
+
+
+.copyright{
+    font-size: 10px;
+}
+
+.copyright a{
+    color:white;
+}
 /* fine get start */
 
 
@@ -515,31 +561,3 @@ header .col:first-of-type{
 fine responsive
 
 */
-
-
-
-
-
-
-
-
-
-
-
-/* test */
-
-.img-box::after{
-    content:'immagine';
-}
-
-.text-box::after{
-    content:'testo';
-}
-
-
-.title::after{
-    content:'titolo';
-}
-
-
-/* fine test */
