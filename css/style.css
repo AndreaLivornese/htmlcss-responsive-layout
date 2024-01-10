@@ -150,18 +150,37 @@ header .btn{
     gap:24px;
 }
 
+.planning .title-p{
+    color:white;
+    font-size: 24px;
+}
+
+.planning p{
+    text-align: left;
+    color:white;
+}
+
 .planning .col:nth-of-type(2){
     background-color: white;
     /* test */
+    padding: 32px 14px;
 }
 
-.planning .col:nth-of-type(2) .img-box, .planning .col:nth-of-type(2) .text-box{
-    height: 90px;
-    width: 50%;
+.planning .col:nth-of-type(2) .title-p, .planning .col:nth-of-type(2) p{
+    color:black;
+}
 
-    margin-left: auto;
-    margin-right: auto;
-    /* test */
+button{
+    width:50px;
+    height:50px;
+
+    padding:18px;
+
+    border-radius: 50%;
+    border: transparent;
+    
+    color:black;
+    background-color: #9792e4;
 }
 
 /* fine section planning */
