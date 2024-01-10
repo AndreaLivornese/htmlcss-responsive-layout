@@ -156,6 +156,8 @@ header .btn{
 }
 
 .planning p{
+    margin-bottom: 40px;
+
     text-align: left;
     color:white;
 }
@@ -196,6 +198,63 @@ button{
     flex-wrap: wrap;
     gap:32px;
 }
+
+
+.col-title{
+    margin-bottom: 40px;
+
+    text-transform: uppercase;
+
+
+}
+
+.testimonials h2{
+    
+    color:#9792e4;
+    font-size: 26px;
+
+
+}
+
+.testimonials .col:not(.testimonials .col:first-of-type){
+    background-color: #9792e4;
+
+    padding:32px 16px 38px;
+
+    color:white;
+}
+
+
+.testimonials .img-box{
+    margin-bottom: 22px;
+}
+
+.testimonials p{
+    margin-bottom: 24px;
+}
+
+.name{
+    font-weight: bold;
+}
+
+
+/* le due classi creano la foto circolare nelle colonne */
+
+.circural-landscape{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.circural-landscape img{
+    width: auto;
+    height: 100%;
+    margin-left: -50px;
+}
+
+
 
 /* fine testimonials */
 
