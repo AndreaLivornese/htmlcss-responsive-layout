@@ -205,7 +205,6 @@ button{
 
     text-transform: uppercase;
 
-
 }
 
 .testimonials h2{
@@ -261,14 +260,6 @@ button{
 
 /* benefits */
 
-.title{
-  
-    width: 100%;
-    height: 50px;
-    background-color: red;
-    /* test */
-}
-
 .benefits{
     background-color: #9792e4;
 
@@ -285,6 +276,50 @@ button{
     flex-wrap: wrap;
     gap:32px;
 }
+
+.benefits .title-p{
+    text-align: center;
+    font-size: 26px;
+    color:white;
+}
+
+.benefits .col{
+    padding: 46px 28px 32px;
+
+
+    background-color: white;
+    text-align: left;
+    color:#737373;
+}
+
+.order{
+
+    margin-bottom: 32px;
+
+    font-size: 34px;
+    font-weight: bold;
+    color:#9792e4;
+}
+
+.benefits .col-title{
+    color:#9792e4;
+    font-size: 18px;
+    font-weight: bold;
+
+    margin-bottom: 36px;
+}
+
+.benefits p{
+    margin-bottom: 30px;
+}
+
+.benefits .btn{
+    padding: 18px 48px;
+
+    background-color:#9792e4;
+}
+
+
 
 /* fine benefits */
 
