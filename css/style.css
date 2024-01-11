@@ -95,6 +95,8 @@ header .col{
 
 header .col:first-of-type{
     text-align: left;
+
+    padding-bottom: 0;
 }
 
 header p{
@@ -121,15 +123,6 @@ header .btn{
     color:#0084fd;
 }
 
-.text-box{
-    /* background-color: cadetblue; */
-    /* text */
-}
-
-.img-box{
-    /* background-color: burlywood; */
-    /* text */
-}
 
 /* fine header */
 
@@ -148,6 +141,10 @@ header .btn{
     flex-wrap: wrap;
 
     gap:24px;
+}
+
+.planning .img-box{
+    margin-bottom: 90px;
 }
 
 .planning .title-p{
@@ -225,6 +222,7 @@ button{
 
 
 .testimonials .img-box{
+
     margin-bottom: 22px;
 }
 
@@ -496,15 +494,21 @@ header .col:first-of-type{
 }
 
 
+header .img-box{
+    width: 50%;
+}
+
 /* testimonials */
+
 
 .testimonials .col{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .testimonials .img-box{
-    width: 30%;
+    width: 200px;
 }
 
 .testimonials .text-box:first-of-type{
@@ -547,6 +551,11 @@ header .col:first-of-type{
     
     /* planning */
     
+    
+    .planning .container{
+        max-width: 900px;
+    }
+
     .planning .row{
         align-items: flex-end;
     }
@@ -555,6 +564,7 @@ header .col:first-of-type{
         width: calc(50% - 12px);
     }
     
+
     /* benefits */
     
     .benefits .col{
