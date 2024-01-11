@@ -549,6 +549,19 @@ header .img-box{
         max-width: 1200px;
     }
     
+    /* header */
+
+    header .col:first-of-type{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header .col:first-of-type .text-box{
+        width: 50%;
+    }
+
+    
+
     /* planning */
     
     
